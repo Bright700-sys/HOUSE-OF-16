@@ -1,50 +1,50 @@
 const products = [
   {
     id: 1, name: "Classic Varsity Jacket", category: "Jackets", price: 40000,
-    image: "C:/Users/emmanuelg/Desktop/codes/images/varsity jacket.jfif",
+    image: "images/varsity jacket.jfif",
     description: "An elegant fitted jacket designed for a clean, sophisticated appearance. Perfect for evenings, events and smart-casual outfits.",
     sizes: ["S","M","L","XL"], colors: ["#111","#765137","#23344b"]
   },
   {
     id: 2, name: "Denim Wool Jacket", category: "Jackets", price: 30000,
-    image: "C:/Users/emmanuelg/Desktop/codes/images/denim wool jacket.jfif",
+    image: "images/denim wool jacket.jfif",
     description: "A timeless leather-inspired jacket that brings character and confidence to your everyday wardrobe.",
     sizes: ["M","L","XL"], colors: ["#5898a8","#0e0d0d","#fff"]
   },
   {
     id: 3, name: "Denim Jacket", category: "Jackets", price: 27000,
-    image: "C:/Users/emmanuelg/Desktop/codes/images/denim jacket.jfif",
+    image: "images/denim jacket.jfif",
     description: "A versatile denim layer for relaxed days and effortless casual styling.",
     sizes: ["S","M","L","XL"], colors: ["#334d68","#111"]
   },
   {
     id: 4, name: "Harrington Jacket", category: "Jackets", price: 32000,
-    image: "C:/Users/emmanuelg/Desktop/codes/images/harrington jacket.jfif",
+    image: "images/harrington jacket.jfif",
     description: "A classic Harrington Jacket best for men with high guarantee skin .",
     sizes: ["M","L","XL"], colors: ["#111","#68706f","#6d540379"]
   },
    {
     id: 5, name: "Giacca Jacket", category: "Jackets", price: 22000,
-    image: "C:/Users/emmanuelg/Desktop/codes/images/Giacca jacket.jfif",
+    image: "images/Giacca jacket.jfif",
     description: "A streetwear jacket best for teens and adults combining warmth with a clean streetwear silhouette.",
     sizes: ["M","L","XL"], colors: ["#111","#6d5e19","#ffff"],
     
   },
    {
     id: 6, name: "Hendon Nightfall Jacket", category: "Jackets", price: 32000,
-    image: "C:/Users/emmanuelg/Desktop/codes/images/hendon nightfall jacket.jfif",
+    image: "images/hendon nightfall jacket.jfif",
     description: "A Hendon jacket best for classic events and also casual,good skin with high guarantee.",
     sizes: ["M","L","XL"], colors: ["#111","#68706f"] 
   },
    {
     id: 7, name: "Hooded zip up Jacket", category: "Jackets", price: 22000,
-    image: "C:/Users/emmanuelg/Desktop/codes/images/hooded zip up jacket.jfif",
+    image: "images/hooded zip up jacket.jfif",
     description: "A modern Hooded jacket combining warmth with a clean streetwear silhouette during rainy and cloudy seasons.",
     sizes: ["M","L","XL"], colors: ["#111","#4d1080"]
   },
   {
     id: 8, name: "De vo Jacket", category: "Jackets", price:18000,
-    image: "C:/Users/emmanuelg/Desktop/codes/images/jaqueta de vo.jfif",
+    image: "images/jaqueta de vo.jfif",
     description: "A De vo jacket best for cold and cloudy climate for casual wear and best during evening walk or visitation.",
     sizes: ["M","L","XL"], colors: ["#111","#1b8f81,"]
   },
@@ -56,166 +56,166 @@ const products = [
   },
   {
     id: 10, name: "Lacoste shirts", category: "Shirts", price: 12000,
-    image: "C:/Users/emmanuelg/Desktop/codes/images/lacoste.jfif",
+    image: "images/lacoste.jfif",
     description: "A sleek  shirt with a clean silhouette for a confident modern look.",
     sizes: ["S","M","L","XL"], colors: ["#422704","#111","#124","#178","#490202","#fff"]
   },
   {
     id: 11, name: "Lacoste uncolored shirts", category: "Shirts", price: 15000,
-    image: "C:/Users/emmanuelg/Desktop/codes/images/lacoste1.jfif",
+    image: "images/lacoste1.jfif",
     description: "A  shirt that works effortlessly from casual afternoons to smart occasions.",
     sizes: ["S","M","L"], colors: ["#111","#dfe1dc","#304158","#123","#987"]
   },
   {
     id: 12, name: "Denim Pants", category: "Pants", price: 26000,
-    image: "C:/Users/emmanuelg/Desktop/codes/images/denim pants.jfif",
+    image: "images/denim pants.jfif",
     description: "Realaxed oversized pants for casual wearing and class attending for teens and adults.",
     sizes: ["M","L","XL"], colors: ["#111","#96732f","#aad2f3"]
   },
   {
     id: 13, name: "Suit Pants", category: "Pants", price: 40000,
-    image: "C:/Users/emmanuelg/Desktop/codes/images/suit pants.jfif",
+    image: "images/suit pants.jfif",
     description: "A classic pant for special occassions, meetings and dates .Better for classic men.",
     sizes: ["S","M","L","XL"], colors: ["#111","#f2eee5","#86600e",]
   },
   {
     id: 14, name: "Sweatpants", category: "Pants", price:15000,
-    image: "C:/Users/emmanuelg/Desktop/codes/images/sweatpants.jfif",
+    image: "images/sweatpants.jfif",
     description: "A comfortable pant with a clean, minimal shape for everyday wear even at home it is so very comfortable.",
     sizes: ["M","L","XL"], colors: ["#3e3a35","#111","#8a8379","rgb(224, 16, 179)","#123","rgb(138, 85, 6)","#aad2f3"]
   },
   {
     id: 15, name: "ALO Tank tops", category: "Tank tops", price: 13000,
-    image: "C:/Users/emmanuelg/Desktop/codes/images/Tank tops.jfif",
+    image: "images/Tank tops.jfif",
     description: "Tailored trousers with a timeless silhouette for formal and smart-casual outfits.",
     sizes: ["M","L","XL"], colors: ["#111","#4d4a43","#24344a"]
   },
   {
     id: 16, name: "NIKE Tank top", category: "Tank tops", price: 10000,
-    image: "C:/Users/emmanuelg/Desktop/codes/images/nike tank tops.jfif",
+    image: "images/nike tank tops.jfif",
     description: "Clean everyday tops that pair easily with sport casual and contemporary outfits. They are better wore in sports and in walks.",
     sizes: ["M","L","XL"], colors: ["#111","#fff","#8a8379","#345","rgb(160, 110, 1)"]
   },
    {
     id: 17, name: "SHEIN Tank tops", category: "Tank tops", price: 15000,
-    image: "C:/Users/emmanuelg/Desktop/codes/images/tank top shein.jfif",
+    image: "images/tank top shein.jfif",
     description: "Casual Tops that  easily match with  casual and contemporary outfits. They are better in walks, redy to be wore in summer.",
     sizes: ["M","L","XL"], colors: ["#111","#fff","#8a8379","#345","rgb(160, 110, 1)"]
   },
    {
     id: 18, name: "NIKE jogger set", category: "Jogger Sets", price: 30000,
-    image: "C:/Users/emmanuelg/Desktop/codes/images/Jogger set.jfif",
+    image: "images/Jogger set.jfif",
     description: "Clean everyday set that go easily with daily works casual and contemporary ones. They are better wore in sports and in walks.",
     sizes: ["M","L","XL"], colors: ["#111","#fff","#8a8379","#345","rgb(160, 110, 1)"]
   },
    {
     id: 19, name: "Crop Shirts", category: "Shirts", price: 12000,
-    image: "C:/Users/emmanuelg/Desktop/codes/images/crop shirt.jfif",
+    image: "images/crop shirt.jfif",
     description: "Everyday shirt that pair easily with denim casual and contemporary outfits. ",
     sizes: ["M","L","XL"], colors: ["#111","#fff","#8a8379","#345","rgb(160, 110, 1)"]
   },
    {
     id: 20, name: "ALO Jogger Shorts Set", category: "Jogger Sets", price: 20000,
-    image: "C:/Users/emmanuelg/Desktop/codes/images/jogger shorts set.jfif",
+    image: "images/jogger shorts set.jfif",
     description: "Daily set best after work in evening walks or sports or chillin' with friends outside.And they are pretty cool at home in summer.",
     sizes: ["M","L","XL"], colors: ["#111","#fff","#8a8379","#345","rgb(160, 110, 1)"]
   },
    {
     id: 21, name: "NIKE Underpants", category: "Underpants", price: 8000,
-    image: "C:/Users/emmanuelg/Desktop/codes/images/nike underpants.jfif",
+    image: "images/nike underpants.jfif",
     description: "Clean everyday underpants that pair easily with sports, casual and contemporary outfits. They are comfortable wore in sports and in walks.",
     sizes: ["M","L","XL"], colors: ["#111","#fff","#8a8379","#345","rgb(160, 110, 1)"]
   },
    {
     id: 22, name: "ALO Underpants", category: "Underpants", price: 9000,
-    image: "C:/Users/emmanuelg/Desktop/codes/images/ALO underpants.jfif",
+    image: "images/ALO underpants.jfif",
     description: "Clean everyday underpants that pair easily with sport ,casual and contemporary outfits. They are better wore in sports and in walks.",
     sizes: ["M","L","XL"], colors: ["#111","#fff","#8a8379","#345","rgb(160, 110, 1)"]
   },
    {
     id: 23, name: "ALO V-neck Sweater", category: "Sweaters & Hoodies", price: 30000,
-    image: "C:/Users/emmanuelg/Desktop/codes/images/v-neck sweater.jfif",
+    image: "images/v-neck sweater.jfif",
     description: "Comfortable and portable sweater best in rainy and cloudy season.Wore casually and contemporary.",
     sizes: ["M","L","XL"], colors: ["#111","#fff","#8a8379","#345","rgb(160, 110, 1)"]
   },
    {
     id: 24, name: "ALO Hoodie", category: "Sweaters & Hoodies", price: 24000,
-    image: "C:/Users/emmanuelg/Desktop/codes/images/ALO hoodie.jfif",
+    image: "images/ALO hoodie.jfif",
     description: "Comfortable and portable sweater best in rainy and cloudy season.Wore casually andcontemporary.",
     sizes: ["M","L","XL"], colors: ["#111","#fff","#8a8379","#345","rgb(160, 110, 1)"]
   }, {
     id: 25, name: "Ck V-neck Sweater", category: "Sweaters & Hoodies", price: 35000,
-    image: "C:/Users/emmanuelg/Desktop/codes/images/Ck v-neck sweater.jfif",
+    image: "images/Ck v-neck sweater.jfif",
     description: "Comfortable and portable sweater best in rainy and cloudy season.Wore casually and contemporary.",
     sizes: ["M","L","XL"], colors: ["#111","#fff","#8a8379","#345","rgb(160, 110, 1)"]
   },
    {
     id: 26, name: "Longneck Sweater", category: "Sweaters & Hoodies", price: 50000,
-    image: "C:/Users/emmanuelg/Desktop/codes/images/long neck sweater.jfif",
+    image: "images/long neck sweater.jfif",
     description: "Comfortable and portable sweater best in rainy and cloudy season.Wore casually and contemporary.",
     sizes: ["M","L","XL"], colors: ["#111","#fff","#8a8379","#345","rgb(160, 110, 1)"]
   },
    {
     id: 27, name: "V-neck sweater", category: "Sweaters & Hoodies", price: 30000,
-    image: "C:/Users/emmanuelg/Desktop/codes/images/valesse.jfif",
+    image: "images/valesse.jfif",
     description: "Comfortable and portable sweater best in rainy and cloudy season.Wore casually and contemprary.",
     sizes: ["M","L","XL"], colors: ["#111","#fff","#8a8379","#345","rgb(160, 110, 1)"]
   },
    {
     id: 23, name: "Fly Emirates V-neck Sweater", category: "Sweaters & Hoodies", price: 25000,
-    image: "C:/Users/emmanuelg/Desktop/codes/images/fly emirates v-neck sweater.jfif",
+    image: "images/fly emirates v-neck sweater.jfif",
     description: "Comfortable and portable sweater best in rainy and cloudy season.Wore casually and.",
     sizes: ["M","L","XL"], colors: ["#111","#fff","#8a8379","#345","rgb(160, 110, 1)"]
   },
    {
     id: 24, name: "Camp-collar set", category: "Co-ord Sets", price: 50000,
-    image: "C:/Users/emmanuelg/Desktop/codes/images/complete.jfif",
+    image: "images/complete.jfif",
     description: "Casual best outfit easy for wearing and preparing.",
     sizes: ["M","L","XL"], colors: ["#111","#fff","#8a8379","#345","rgb(160, 110, 1)"]
   },
    {
     id: 25, name: "Cuban-collar set", category: "Co-ord Sets", price: 50000,
-    image: "C:/Users/emmanuelg/Desktop/codes/images/complete 1.jfif",
+    image: "images/complete 1.jfif",
     description: "Gives sophiscated, effortless look while remaining relaxed",
     sizes: ["M","L","XL"], colors: ["#111","#fff","#8a8379","#345","rgb(160, 110, 1)"]
   },
    {
     id: 26, name: "Resort set", category: "Co-ord Sets", price: 50000,
-    image: "C:/Users/emmanuelg/Desktop/codes/images/cotton pants.jfif",
+    image: "images/cotton pants.jfif",
     description: "Breathable and comfortable while still looking put together.",
     sizes: ["M","L","XL"], colors: ["#111","#fff","#8a8379","#345","rgb(160, 110, 1)"]
   },
    {
     id: 27, name: "Tailored set", category: "Co-ord Sets", price: 50000,
-    image: "C:/Users/emmanuelg/Desktop/codes/images/complete 2.jfif",
+    image: "images/complete 2.jfif",
     description: "Looks more formal than a relaxed set while remaining comfortable",
     sizes: ["M","L","XL"], colors: ["#111","#fff","#8a8379","#345","rgb(160, 110, 1)"]
   },
    {
     id: 28, name: "ALO Yoga Shorts", category: "Shorts", price: 4000,
-    image: "C:/Users/emmanuelg/Desktop/codes/images/ALO yoga shorts.jfif",
+    image: "images/ALO yoga shorts.jfif",
     description: "Comfortable shorts for summer and home relaxation.",
     sizes: ["M","L","XL"], colors: ["#111","#fff","#8a8379","#345","rgb(160, 110, 1)"]
   },
    {
     id: 29, name: "'47NYY Baseball cap", category: "Caps", price: 5000,
-    image: "C:/Users/emmanuelg/Desktop/codes/images/'47NYY baseball cap.jfif",
+    image: "images/'47NYY baseball cap.jfif",
     description: "Reliable cap wore either in sun or in rain good during walks.",
     sizes: ["M","L","XL"], colors: ["#111","#fff","#8a8379","#345","rgb(160, 110, 1)"]
   },
 ];
 
 const categories = [
-  ["Pants","C:/Users/emmanuelg/Desktop/codes/images/suit pants.jfif"],
-  ["Jackets","C:/Users/emmanuelg/Desktop/codes/images/jackets.jfif"],
-  ["Tank tops","C:/Users/emmanuelg/Desktop/codes/images/Tank tops.jfif"],
-  ["Jogger Sets","C:/Users/emmanuelg/Desktop/codes/images/Jogger set.jfif"],
-  ["Shirts","C:/Users/emmanuelg/Desktop/codes/images/tops.jfif"],
-  ["Sweaters & Hoodies","C:/Users/emmanuelg/Desktop/codes/images/v-neck sweater.jfif"],
-  ["Underpants","C:/Users/emmanuelg/Desktop/codes/images/ck boxers.jfif"],
-  ["Co-ord Sets","C:/Users/emmanuelg/Desktop/codes/images/complete.jfif"],
-  ["Shorts","C:/Users/emmanuelg/Desktop/codes/images/ALO yoga shorts.jfif"],
-  ["Caps","C:/Users/emmanuelg/Desktop/codes/images/'47NYY baseball cap.jfif"]
+  ["Pants","images/suit pants.jfif"],
+  ["Jackets","images/jackets.jfif"],
+  ["Tank tops","images/Tank tops.jfif"],
+  ["Jogger Sets","images/Jogger set.jfif"],
+  ["Shirts","images/tops.jfif"],
+  ["Sweaters & Hoodies","images/v-neck sweater.jfif"],
+  ["Underpants","images/ck boxers.jfif"],
+  ["Co-ord Sets","images/complete.jfif"],
+  ["Shorts","images/ALO yoga shorts.jfif"],
+  ["Caps","images/'47NYY baseball cap.jfif"]
 ];
 
 let currentCategory = "All";

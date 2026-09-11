@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="THE HOUSE OF 16 - Men's fashion collection">
+  <title>THE HOUSE OF 16 | Men's Fashion</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="C:\Users\emmanuelg\Desktop\codes\style.css">
+</head>
+<body>
+
+  <!-- WELCOME SCREEN -->
+  <section id="welcome-screen" class="welcome-screen">
+    <div class="welcome-overlay"></div>
+    <div class="welcome-content">
+      <div class="logo-mark"></div>
+      <h1>THE HOUSE OF 16</h1>
+      <p>Where Style Finds You.</p>
+      <button id="welcome-btn" class="gold-btn">WELCOME</button>
+    </div>
+  </section>
+
+  <!-- MAIN APP -->
+  <div id="app" class="app hidden">
+    <header class="header">
+      <a href="#home" class="brand" data-page="home">
+        <span class="mini-logo"></span>
+        <span>THE HOUSE OF 16</span>
+      </a>
+
+      <nav class="desktop-nav">
+        <a href="#home" data-page="home">Home</a>
+        <a href="#shop" data-page="shop">Shop</a>
+        <a href="#about" data-page="about">About</a>
+        <a href="#contact" data-page="contact">Contact</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="icon-btn" id="search-toggle" aria-label="Search">⌕</button>
+        <button class="icon-btn" id="favorites-toggle" aria-label="Favorites">♡</button>
+        <button class="menu-btn" id="menu-btn" aria-label="Open menu">☰</button>
+      </div>
+    </header>
+
+    <div id="search-box" class="search-box hidden">
+      <input id="search-input" type="search" placeholder="Search jackets, shirts, trousers...">
+    </div>
+
+    <main>
+      <!-- HOME -->
+      <section id="home-page" class="page active">
+        <div class="hero">
+          <img src="C:\Users\emmanuelg\Desktop\codes\images\Tank tops.jfif" alt="Man wearing a classic suit">
+          <div class="hero-content">
+            <p class="eyebrow">THE HOUSE OF 16</p>
+            <h2>Quality Clothes.<br>Timeless Style.</h2>
+            <p>Classic pieces and modern essentials made for confidence, character and everyday elegance.</p>
+            <button class="gold-btn" data-page="shop">Explore Collection</button>
+          </div>
+        </div>
+
+        <div class="section">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">DISCOVER</p>
+              <h2>Shop by Category</h2>
+            </div>
+            <button class="text-btn" data-page="shop">View All →</button>
+          </div>
+          <div id="category-grid" class="category-grid"></div>
+        </div>
+
+        <div class="brand-story section">
+          <div class="story-image">
+            <img src="C:\Users\emmanuelg\Desktop\codes\images\background 6.jfif" alt="Clothing rack">
+          </div>
+          <div class="story-copy">
+            <p class="eyebrow">OUR STORY</p>
+            <h2>More Than Clothes.<br>It's a Lifestyle.</h2>
+            <p>THE HOUSE OF 16 is a men's fashion house built around timeless style, quality and confidence. Explore pieces designed to make every occasion feel special.</p>
+            <button class="outline-btn" data-page="about">Learn More</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- SHOP -->
+      <section id="shop-page" class="page">
+        <div class="page-intro">
+          <p class="eyebrow">THE COLLECTION</p>
+          <h1>Shop Men's Wear</h1>
+          <p>Find your next signature piece.</p>
+        </div>
+
+        <div class="shop-toolbar">
+          <div id="category-filters" class="filter-pills"></div>
+          <select id="sort-select" aria-label="Sort products">
+            <option value="featured">Featured</option>
+            <option value="low">Price: Low to High</option>
+            <option value="high">Price: High to Low</option>
+            <option value="name">Name: A-Z</option>
+          </select>
+        </div>
+
+        <div id="product-grid" class="product-grid"></div>
+        <p id="no-results" class="no-results hidden">No products found.</p>
+      </section>
+
+      <!-- PRODUCT DETAILS -->
+      <section id="product-page" class="page">
+        <button class="back-btn" data-page="shop">← Back to collection</button>
+        <div id="product-detail" class="product-detail"></div>
+      </section>
+
+      <!-- FAVORITES -->
+      <section id="favorites-page" class="page">
+        <div class="page-intro">
+          <p class="eyebrow">YOUR SELECTION</p>
+          <h1>Favorites</h1>
+          <p>Pieces you've saved for later.</p>
+        </div>
+        <div id="favorite-grid" class="product-grid"></div>
+        <p id="empty-favorites" class="empty-state">You haven't saved any pieces yet. ♡</p>
+      </section>
+
+      <!-- ABOUT -->
+      <section id="about-page" class="page">
+        <div class="about-hero">
+          <img src="C:\Users\emmanuelg\Desktop\codes\images\background 3.jfif" alt="Man in elegant clothing">
+          <div>
+            <p class="eyebrow">ABOUT THE HOUSE</p>
+            <h1>Style. Quality.<br>Confidence.</h1>
+          </div>
+        </div>
+
+        <div class="values section">
+          <article><span>◈</span><h3>Quality</h3><p>We look for pieces that feel as good as they look.</p></article>
+          <article><span>◇</span><h3>Style</h3><p>Timeless designs that remain relevant beyond trends.</p></article>
+          <article><span>✦</span><h3>Confidence</h3><p>Because when you look good, you feel good.</p></article>
+        </div>
+
+        <div class="about-text section">
+          <p class="eyebrow">THE HOUSE OF 16</p>
+          <h2>For Every Occasion.</h2>
+          <p>From relaxed casual wear to sophisticated classic pieces, our collection helps you build a wardrobe that speaks for you. Browse the collection and contact us about the pieces you love.</p>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section id="contact-page" class="page">
+        <div class="contact-layout section">
+          <div>
+            <p class="eyebrow">GET IN TOUCH</p>
+            <h1>Contact Us</h1>
+            <p>Found something you love? Send us an inquiry and we'll help you with availability, sizes, colors and purchasing.</p>
+
+            <div class="contact-info">
+              <div><span>✉</span><div><strong>Email</strong><p>houseof16@gmail.com</p></div></div>
+              <div><span>☎</span><div><strong>Phone</strong><p>+250 795019720</p></div></div>
+              <div><span>◎</span><div><strong>Location</strong><p>Kigali, Rwanda, Chic Building</p></div></div>
+            </div>
+          </div>
+
+          <form id="contact-form" class="contact-form">
+            <label>Name<input id="contact-name" required type="text" placeholder="Your name"></label>
+            <label>Email<input id="contact-email" required type="email" placeholder="you@example.com"></label>
+            <label>Message<textarea id="contact-message" required rows="6" placeholder="Tell us what you're interested in..."></textarea></label>
+            <button class="gold-btn" type="submit">Send Inquiry</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!-- MOBILE NAV -->
+    <nav class="mobile-nav">
+      <button data-page="home">⌂<span>Home</span></button>
+      <button data-page="shop">▦<span>Shop</span></button>
+      <button data-page="favorites">♡<span>Favorites</span></button>
+      <button data-page="contact">✉<span>Contact</span></button>
+    </nav>
+
+    <footer>
+      <div class="footer-brand">
+        <span class="mini-logo"></span>
+        <strong>THE HOUSE OF 16</strong>
+      </div>
+      <p>Where Style Finds You.</p>
+      <p class="copyright">© 2026 THE HOUSE OF 16. All rights reserved.</p>
+    </footer>
+  </div>
+
+  <script src="C:\Users\emmanuelg\Desktop\codes\script.js"></script>
+</body>
+</html>

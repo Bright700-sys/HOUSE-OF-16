@@ -46,11 +46,11 @@ const products = [
     id: 8, name: "De vo Jacket", category: "Jackets", price:18000,
     image: "images/jaqueta de vo.jfif",
     description: "A De vo jacket best for cold and cloudy climate for casual wear and best during evening walk or visitation.",
-    sizes: ["M","L","XL"], colors: ["#111","#1b8f81,"]
+    sizes: ["M","L","XL"], colors: ["#111","#1b8f81"]
   },
   {
     id: 9, name: "Short Sleeve Shirts", category: "Shirts", price: 12000,
-    image: "C:/Users/emmanuelg/Desktop/codes/images/short sleeve.jfif",
+    image: "images/short sleeve.jfif",
     description: "A crisp shirt made for all occasions, office looks and refined evenings.",
     sizes: ["S","M","L","XL"], colors: ["#fff","#111","#6870","#123"]
   },
@@ -162,43 +162,43 @@ const products = [
     sizes: ["M","L","XL"], colors: ["#111","#fff","#8a8379","#345","rgb(160, 110, 1)"]
   },
    {
-    id: 23, name: "Fly Emirates V-neck Sweater", category: "Sweaters & Hoodies", price: 25000,
+    id: 28, name: "Fly Emirates V-neck Sweater", category: "Sweaters & Hoodies", price: 25000,
     image: "images/fly emirates v-neck sweater.jfif",
     description: "Comfortable and portable sweater best in rainy and cloudy season.Wore casually and.",
     sizes: ["M","L","XL"], colors: ["#111","#fff","#8a8379","#345","rgb(160, 110, 1)"]
   },
    {
-    id: 24, name: "Camp-collar set", category: "Co-ord Sets", price: 50000,
+    id: 29, name: "Camp-collar set", category: "Co-ord Sets", price: 50000,
     image: "images/complete.jfif",
     description: "Casual best outfit easy for wearing and preparing.",
     sizes: ["M","L","XL"], colors: ["#111","#fff","#8a8379","#345","rgb(160, 110, 1)"]
   },
    {
-    id: 25, name: "Cuban-collar set", category: "Co-ord Sets", price: 50000,
+    id: 30, name: "Cuban-collar set", category: "Co-ord Sets", price: 50000,
     image: "images/complete 1.jfif",
     description: "Gives sophiscated, effortless look while remaining relaxed",
     sizes: ["M","L","XL"], colors: ["#111","#fff","#8a8379","#345","rgb(160, 110, 1)"]
   },
    {
-    id: 26, name: "Resort set", category: "Co-ord Sets", price: 50000,
+    id: 31, name: "Resort set", category: "Co-ord Sets", price: 50000,
     image: "images/cotton pants.jfif",
     description: "Breathable and comfortable while still looking put together.",
     sizes: ["M","L","XL"], colors: ["#111","#fff","#8a8379","#345","rgb(160, 110, 1)"]
   },
    {
-    id: 27, name: "Tailored set", category: "Co-ord Sets", price: 50000,
+    id: 32, name: "Tailored set", category: "Co-ord Sets", price: 50000,
     image: "images/complete 2.jfif",
     description: "Looks more formal than a relaxed set while remaining comfortable",
     sizes: ["M","L","XL"], colors: ["#111","#fff","#8a8379","#345","rgb(160, 110, 1)"]
   },
    {
-    id: 28, name: "ALO Yoga Shorts", category: "Shorts", price: 4000,
+    id: 33, name: "ALO Yoga Shorts", category: "Shorts", price: 4000,
     image: "images/ALO yoga shorts.jfif",
     description: "Comfortable shorts for summer and home relaxation.",
     sizes: ["M","L","XL"], colors: ["#111","#fff","#8a8379","#345","rgb(160, 110, 1)"]
   },
    {
-    id: 29, name: "'47NYY Baseball cap", category: "Caps", price: 5000,
+    id: 34, name: "'47NYY Baseball cap", category: "Caps", price: 5000,
     image: "images/'47NYY baseball cap.jfif",
     description: "Reliable cap wore either in sun or in rain good during walks.",
     sizes: ["M","L","XL"], colors: ["#111","#fff","#8a8379","#345","rgb(160, 110, 1)"]
